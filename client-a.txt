@@ -1,4 +1,48 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+START
+Initialize variables 
+   Generate a number between 1 and 10
+   Assign three guesses to player
+
+Prompt player to enter a guess 
+   PRINT "Enter a number between 1 and 10."
+
+Check player guess
+
+IF player guess = random number
+   PRINT 'Correct!' 
+
+ELSE 
+   Subtract 1 from number of guesses
+   PRINT 'Incorrect. 2 guesses remaining.'
+
+Prompt player to enter a guess 
+   PRINT "Enter a number between 1 and 10."
+
+Check player guess
+
+IF player guess = random number
+   PRINT 'Correct!' 
+
+ELSE 
+   Subtract 1 from number of guesses
+   PRINT 'Incorrect. 1 guess remaining.'
+
+Prompt player to enter a guess 
+   PRINT "Enter a number between 1 and 10."
+
+Check player guess
+
+IF player guess = random number
+   PRINT 'Correct!' 
+
+ELSE 
+   PRINT 'Incorrect. Please play again!'
+
+END
+
+
+
 
