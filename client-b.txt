@@ -2,3 +2,18 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+START
+
+
+
+Initialize variables
+  Declare variables for the customer's start location (X, Y)
+  Declare variables for the target location (X, Y)
+
+Start loop based on user input
+  Ask customer for a direction (N, S, E, W)
+  Update direction and user location accordingly
+
+Repeat loop until target location is reached
+Print success message: 'You have arrived!'
+
