@@ -2,3 +2,16 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+START
+
+Initialize variable
+  Variable 'packageCount' set to 0
+
+Start loop
+  Loop through range 2 - 50 (inclusive) by increments of 2
+  packageCount increases by 2 for each iteration of the loop
+  Print current value of packageCount to display number of packages
+
+End loop
+  When packageCount >= 50, exit loop
+  Print 'Case capacity exceeded'
